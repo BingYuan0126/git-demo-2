@@ -5,10 +5,110 @@
 <head>
     <meta charset="utf-8">
     <title>首頁</title>
+    <style>
+        .ttitle{
+            background-color: #0f2edf;
+            color: rgb(23, 211, 16);
+            font-size: 48px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius:  65px;
+            margin: 24px 48px ;
+            padding: 12px;
+            text-align: center ; 
+            
+        }
+
+        .eng-title{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+        .sub-title{
+            background-color: #D24545;
+            color: #E4debe;
+            font-size: 32px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border: black 2px solid;
+            margin: 12px;
+        }
+    
+        h1 {
+        color: rgb(253,36,79);
+        background-color:rgb(243,200,168);
+        }
+
+        body{
+        background-color: #A94438;
+        color: white;
+        font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border: black 2px solid;
+        }
+        #info{
+            padding: 12px;
+            background-color: darksalmon;
+            color: white;
+        }
+
+        #container{
+            padding: 1rem;
+        }
+
+        img{
+            background-color: white;
+            padding: 12px;
+            width:  28%;
+        }
+        #imagesos{
+            text-align: center ;
+        }
+        table{
+            width:  60%;
+            height: 300px;
+            text-align: center;
+            margin: 0 auto;
+            border: 3px balck solid;
+            background-color:  aqua;
+        }
+        thead{
+            background-color: aqua;
+            color: blueviolet;
+        }
+        td:first-child{
+            background-color: #D24545;
+            color: white;
+        }
+        #videoo{
+            text-align: center;
+        }
+
+        #post-form{
+            text-align: center;
+        }
+
+        form{
+            background-color: #e4debe;
+            color: black;
+            padding: 1rem 0px;
+            border-radius:  1rem;
+            margin: 6px auto;
+        }
+        
+        input,
+        textarea,
+        label{
+            margin:  12px 0px;
+            font-size: 24px;
+        }
+    </style>
+    
 </head>
 
 <body>
-<h1>我愛健身網站</h1>
+<div id="container">
+<div class="ttitle">我愛健身網站
+    <span clsaa="eng-title"> GYM WEM</span>
+</div>
+<div id="info">
 <b>健身，英文稱為workout，</b><br>
 健身這兩個字拆開來的意思就是健康身體，通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，以及提高協調和控制身體各部分的能力來使我們的身體更強健。<br>
 
@@ -16,11 +116,12 @@
 
 <em>如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，他們是如何做到年過50/60歲，<br>
 依舊在舞臺上或者是電影螢幕上綻放光彩。<u>答案就是堅持<b>運動健身!</b></u></em>
+</div>
 <hr>
 <a target="_blank" href="https://www.juksy.com/article/71891">
 <img width="50%" src="https://assets.juksy.com/files/articles/71891/800x_100_w-59e724133ad2b.jpg" alt="找不到圖片">
 </a>
-<h2>健身的10個好處</h2>
+<div class="sub-title">健身的10個好處</div>
 <ol type="1"
     <li>增加基礎代謝率</li>
     <li>預防疾病和提高免疫力</li>
@@ -34,10 +135,12 @@
     <li><增加肌肉助於減肥</li>
 </ol>
 <hr>
+<div id="imagesos">
 <img width="31%" src="images/charles-gaudreault-xXofYCc3hqc-unsplash.jpg">
 <img width="32%" src="images/javier-santos-guzman-9MR78HGoflw-unsplash.jpg">
 <img width="35%" src="images/sven-mieke-optBC2FxCfc-unsplash.jpg">
-<h2>好文章連結</h2>
+</div>
+<div class="sub-title">好文章連結</div>
 <li>
 <a target="_blank" href="https://blog.worldgymtaiwan.com/common-symptoms-of-menopause">更年期症狀讓妳變得不快樂難相處嗎？調整飲食與運動是公認最佳良藥</a><br>
 </li>
@@ -91,9 +194,10 @@
 因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)
 </p>
 
-</body>
+
 <hr>
-<h2>健身影片</h2>
+<div class="sub-title">健身影片</div>
+<div id="viedoo">
 <iframe width="709" height="399" src="https://www.youtube.com/embed/MzLZXUnekuI"
  title="健身房新手【4天練全身課表】每天只做CP值最高的三個精華動作！│健人訓練│ 2021ep31" frameborder="0"
  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -107,8 +211,10 @@
  <video src="video/file_example_MP4_640_3MG.mp4" controls>
 
  </video>
+</div>
  <hr>
- <h2>表單填寫</h2>
+ <div class="sub-title">表單填寫</div>
+ <div id="post-form">
  <form action="" method="get">
     <label for="username">帳號</label>
     <input type="text" id="username" name="username">
@@ -131,8 +237,9 @@
     <br>
     <textarea name="" id="" cols="30" rows="10"></textarea>
     <p><button type="submit">發送</button></p>
+</div>
 
  </form>
- 
-
+</div>
+</body>
 </html>
