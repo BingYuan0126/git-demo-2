@@ -24,6 +24,7 @@
 
 
         .sub-title{
+            display: inline-block;
             background-color: #D24545;
             color: #E4debe;
             font-size: 32px;
@@ -39,6 +40,8 @@
 
         body{
         background-color: #A94438;
+        background-image: url("images/javier-santos-guzman-9MR78HGoflw-unsplash.jpg");
+        background-size: contain;
         color: white;
         font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         border: black 2px solid;
@@ -87,6 +90,8 @@
 
         form{
             background-color: #e4debe;
+            background-image: url("images/charles-gaudreault-xXofYCc3hqc-unsplash.jpg");
+            background-size: contain;
             color: black;
             padding: 1rem 0px;
             border-radius:  1rem;
@@ -95,9 +100,24 @@
         
         input,
         textarea,
-        label{
+        label,
+        button{
             margin:  12px 0px;
             font-size: 24px;
+        }
+        button{
+            background-color: aqua;
+            width: 100px;
+            border-radius: 6px;
+        }
+        a{
+            color: #e4debe;
+        }
+        a:hover{
+            color: yellow;
+        }
+        a:active{
+            color: white;
         }
     </style>
     
@@ -121,6 +141,7 @@
 <a target="_blank" href="https://www.juksy.com/article/71891">
 <img width="50%" src="https://assets.juksy.com/files/articles/71891/800x_100_w-59e724133ad2b.jpg" alt="找不到圖片">
 </a>
+<br>
 <div class="sub-title">健身的10個好處</div>
 <ol type="1"
     <li>增加基礎代謝率</li>
@@ -237,6 +258,7 @@
     <br>
     <textarea name="" id="" cols="30" rows="10"></textarea>
     <p><button type="submit">發送</button></p>
+
 </div>
 
  </form>
