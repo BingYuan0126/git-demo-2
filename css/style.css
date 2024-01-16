@@ -1,0 +1,73 @@
+body{
+    background-color: #A94438;
+    background-image: url("../images/javier-santos-guzman-9MR78HGoflw-unsplash.jpg");
+    background-size: contain;
+    color: white;
+    font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: black 2px solid;
+    }
+
+.ttitle{
+     background-color: #0f2edf;
+     color: rgb(23, 211, 16);
+     font-size: 48px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:  65px;
+    margin: 24px 48px ;
+    padding: 12px;
+    text-align: center ; 
+        
+    }
+    form{
+        background-color: #e4debe;
+        background-image: url("../images/charles-gaudreault-xXofYCc3hqc-unsplash.jpg");
+        background-size: contain;
+        color: black;
+        padding: 1rem 0px;
+        border-radius:  1rem;
+        margin: 6px auto;
+    }
+    
+    input,
+    textarea,
+    label,
+    button{
+        margin:  12px 0px;
+        font-size: 24px;
+    }
+    button{
+        background-color: aqua;
+        width: 100px;
+        border-radius: 6px;
+    }
+    a{
+        color: #e4debe;
+    }
+    a:hover{
+        color: yellow;
+    }
+    a:active{
+        color: white;
+    }
+
+    #container{
+        padding: 1rem;
+    }
+    @media screen and (max-width: 768px) {
+        table{
+            width: 100%;
+        }
+        form{
+            width:100%;
+            font-size: 16px;
+        }
+
+    } 
+    
+    @media screen and (max-width: 1024px) {
+        form{
+            width:80%;
+            font-size: 12px;
+        }
+
+    }
